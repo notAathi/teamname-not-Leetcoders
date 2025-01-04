@@ -64,5 +64,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Aathi Madhav G](https://github.com/notAathi)
 - [Saravanan K](https://github.com/Saravanan-039)
-- [Yuvasri S](https://github.com/yuvasriselvam0107)
 - [Trisha P](https://github.com/trixul)
+- [Yuvasri S](https://github.com/yuvasriselvam0107)
