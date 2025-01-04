@@ -62,7 +62,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributors
 
-- [notAathi](https://github.com/notAathi)
-- [Saravanan-039](https://github.com/Saravanan-039)
-- [yuvasriselvam0107](https://github.com/yuvasriselvam0107)
-- [trixul](https://github.com/trixul)
+- [Aathi Madhav G](https://github.com/notAathi)
+- [Saravanan K](https://github.com/Saravanan-039)
+- [Yuvasri S](https://github.com/yuvasriselvam0107)
+- [Trisha P](https://github.com/trixul)
