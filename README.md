@@ -1,14 +1,8 @@
 # teamname-not-Leetcoders
 
-# IITM bs Hacksprint Hackathon Repo
+# IITM BS Hacksprint Hackathon Repo
 
 This repository contains a project developed for the IITM BS Hacksprint hackathon. The project is a web application that shows the learning progress of users.
-
-## Technologies Used
-
-- **CSS**: 49.1%
-- **HTML**: 43.7%
-- **JavaScript**: 7.2%
 
 ## Project Description
 
@@ -69,3 +63,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contributors
 
 - [notAathi](https://github.com/notAathi)
+- [Saravanan-039](https://github.com/Saravanan-039)
+- [yuvasriselvam0107](https://github.com/yuvasriselvam0107)
+- [trixul](https://github.com/trixul)
