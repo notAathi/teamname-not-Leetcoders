@@ -2,12 +2,11 @@
 
 # IITM BS Hacksprint Hackathon Repo
 
-This repository contains a project developed for the IITM BS Hacksprint hackathon. The project is a web application that shows the learning progress of users.
+This repository contains a project developed for the IITM BS Hacksprint hackathon. The project is a web application built using React that shows the learning progress of users.
 
 ## Project Description
 
 The web application provides a user-friendly interface where users can track their learning progress. It offers features such as:
-
 - Displaying the current learning progress.
 - Highlighting key milestones.
 - Providing a visual representation of the progress.
@@ -17,8 +16,8 @@ The web application provides a user-friendly interface where users can track the
 ### Prerequisites
 
 To run this project, you need to have the following installed:
-
-- A web browser (e.g., Chrome, Firefox)
+- Node.js (v16.20.2 or higher)
+- npm (v7.0.0 or higher) or yarn (v1.22.0 or higher)
 - A code editor (e.g., VS Code)
 
 ### Installation
@@ -27,28 +26,42 @@ To run this project, you need to have the following installed:
     ```bash
     git clone https://github.com/notAathi/teamname-not-Leetcoders.git
     ```
-Node Version
-```bash
-node -v
-v16.20.2
-```
 
 2. Navigate to the project directory:
     ```bash
     cd teamname-not-Leetcoders
     ```
 
-3. Open the `index.html` file in your web browser to view the application.
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
+
+### Running the Application
+
+1. Start the development server:
+    ```bash
+    npm start
+    ```
+    or
+    ```bash
+    yarn start
+    ```
+
+2. Open your web browser and navigate to `http://localhost:3000` to view the application.
 
 ## Usage
 
-- Open `index.html` in your browser to start using the application.
 - Use the navigation menu to explore different sections of the application.
+- Track and visualize your learning progress through the user interface.
 
 ## Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
-
 1. Fork this repository.
 2. Create a new branch (`git checkout -b feature-branch`).
 3. Make your changes.
