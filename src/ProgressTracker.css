@@ -1,0 +1,307 @@
+/* ProgressTracker.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    background-color: #444;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid #555;
+}
+
+.profile h2 {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.profile p {
+    color: #aaaaaa;
+}
+
+/* Progress Bars Section */
+.progress-bars {
+    margin: 20px 0;
+}
+
+.progress-item {
+    margin-bottom: 15px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #76c7c0;
+    transition: width 0.3s ease;
+}
+
+.progress-item span {
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+    color: #ffffff;
+}
+
+/* Calendar Section */
+.calendar {
+    margin: 20px 0;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.day {
+    padding: 10px;
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+/* Button */
+.grade-predictor {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grade-predictor:hover {
+    background-color: #004d40;
+}
+
+/* Deadlines and Study Plan Section */
+.deadlines-study-plan {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.deadlines,
+.study-plan {
+    width: 48%;
+}
+
+.deadlines ul,
+.study-plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.deadlines li,
+.study-plan li {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+/* Activity Section */
+.activity-section {
+    margin: 20px 0;
+}
+
+.activity-item {
+    margin-bottom: 15px;
+}
+
+.activity-extra {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-box {
+    background-color: #333;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Pie Chart Section */
+.pie-chart-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pie-chart {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Heatmap Section */
+.heatmap {
+    display: flex;
+    gap: 5px;
+}
+
+.heatmap-cell {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.low {
+    background-color: #388e3c;
+}
+
+.medium {
+    background-color: #fbc02d;
+}
+
+.high {
+    background-color: #d32f2f;
+}
+/* Profile Section */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid #555;
+    object-fit: cover; /* Ensures the image fits perfectly inside the circle */
+}
+
+.bar-chart {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+    margin-top: 20px;
+    border-left: 2px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+  }
+  
+  .bar label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .bar-fill {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .bar-fill:hover {
+    opacity: 0.8;
+    transform: scaleY(1.1);
+  }
+  
+  .bar span {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  /* Pie Chart Styling */
+.pie-chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #4caf50 0deg var(--percentage, 60deg),
+      #2196f3 var(--percentage, 60deg) calc(var(--percentage, 60deg) + 30deg),
+      #ffc107 calc(var(--percentage, 60deg) + 30deg) 360deg
+    );
+    margin: 0 auto;
+  }
+  
+  .pie-chart .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  /* Heatmap Styling */
+  .heatmap-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .heatmap-cell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .heatmap-cell.low {
+    background-color: #4caf50;
+  }
+  
+  .heatmap-cell.medium {
+    background-color: #ff9800;
+  }
+  
+  .heatmap-cell.high {
+    background-color: #f44336;
+  }
+  
+  
+  
